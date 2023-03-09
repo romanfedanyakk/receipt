@@ -2,15 +2,20 @@ import React from "react";
 import "./style.css";
 import "./../../helpers/data"
 
-const RecipeType = () => {
+const RecipeType = ({data}) => {
     return(
-        <div>
-            RecipeType
+
+        <div className="recipe">
+            <div className="">
+            <img src={data.image} alt="No photo"/>
+            <h1>{data.name}</h1>
+            <p>{data.description}</p>
+            </div>
         </div>
+
     )
 }
-
-export default Main;
+export default RecipeType;
 
 
 
