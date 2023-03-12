@@ -1,12 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 .header{
-
 }
-
 .container_head{
   display: flex;
   justify-content: center;
-  min-width: 1920px;
+  min-width: 100vh;
     height: 580px;
   background-color: #FCFFD8;
 }
