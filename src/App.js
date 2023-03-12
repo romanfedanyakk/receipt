@@ -18,9 +18,6 @@ function App() {
                     <Route path="/" element={<Home/>}/>;
                     <Route path="/list" element={<RecipeDetalisList/>}/>;
                 </Routes>
-
-                {/*<Home/>*/}
-                {/*<RecipeDetalisList/>*/}
             </Router>
 
 

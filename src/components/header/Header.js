@@ -1,6 +1,5 @@
 import "./style.css";
 import burger from "./burger.png"
-
 const Header = () => {
   return(
     <header className="header">
@@ -16,7 +15,6 @@ const Header = () => {
         </div>
       </div>
     </header>
-
   );
 }
 

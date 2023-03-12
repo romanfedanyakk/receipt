@@ -123,6 +123,8 @@ export const data = [
                 recipe: "1. Preheat the oven to 400°F (200°C). \n2. Cut the carrots and potatoes into bite-sized pieces. \n3. Slice the onions and chop the garlic. \n4. In a bowl, toss the vegetables with olive oil, salt, and pepper. \n5. Spread the vegetables in a single layer on a baking sheet. \n6. Roast in the oven for 20-25 minutes or until tender and golden brown.",
                 name: "Roasted Vegetables"
             },
+
+
             {
                 image: "https://example.com/image2.jpg",
                 id: 2,
@@ -136,5 +138,3 @@ export const data = [
         ]
     },
 ];
-
-
