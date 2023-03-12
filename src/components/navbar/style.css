@@ -15,18 +15,16 @@ ul, li{
 
 
 .nav{
- box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.05);
+
 }
 
 .container_nav{
  display: flex;
  flex-direction: column;
  justify-content: center;
-width: 1920px;
+min-width: 100vh;
  height: 102px;
-
 }
-
 .nav_row{
  display: flex;
  flex-direction: row;
