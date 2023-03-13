@@ -21,7 +21,7 @@ function RecipeDetalisList(){
             <div className="details_style">
                 <div className="types">
                     {
-                        activeElements && activeElements.map((value, index)=> <RecipeDetilesItem data={value} key={index}  /> )
+                        activeElements && activeElements.map((value, index)=> <RecipeDetilesItem data={value} key={index} setActiveElements={setActiveElements}  /> )
                     }
                 </div>
             </div>
